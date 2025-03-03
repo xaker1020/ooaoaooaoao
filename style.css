@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+header {
+    padding: 22px 0;
+    background-color: hsla(32, 70%, 83%, 1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: hsla(0, 0%, 20%, 1);
+}
+
+.hero-text h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+.hero-text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 0%, 1);
+    margin: 47px 0;
+    width: 464px;
+}
+
+.btn {
+    padding: 16px 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 1);
+    background: hsla(167, 84%, 25%, 1);
+    border-radius: 100px;
+    border: none;
+}
+
+.hero {
+    background: hsla(32, 70%, 83%, 1);
+    padding: 130px 0;
+    height: 700px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.relative {
+    width: 610px;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    animation: aylan 3s infinite linear;
+}
+
+@keyframes aylan {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.hero2-text h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.25px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 20%, 1);
+}
+
+.hero2-text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 20%, 1);
+    margin-top: 10px;
+}
+
+.our {
+    margin-top: 108px;
+    margin-bottom: 42px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58.59px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+.ota {
+    display: flex;
+    align-items: center;
+    gap: 117px;
+    margin-top: 42px;
+}
+
+.ota2 {
+    display: flex;
+    align-items: center;
+    gap: 117px;
+    margin-left: 220px;
+    margin-top: 121px;
+}
+
+.ota img:hover {
+    transform: scale(1.1);
+}
+
+.ota2 img:hover {
+    transform: scale(1.1);
+}
+
+.footer-ota {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background: hsla(32, 70%, 83%, 1);
+    padding: 65px 0;
+}
+
+.icons {
+    color: hsla(0, 0%, 20%, 1);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.footer-ota nav ul li a {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.ota3 {
+    display: flex;
+    align-items: center;
+}
+
+.hero6-text h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56.25px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 0%, 1);
+    margin-left: 318px;
+    margin-top: 160px;
+}
+
+.hero6-text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 20%, 1);
+    margin-top: 64px;
+    margin-left: 318px;
+}
+
+.k {
+    margin-top: 160px;
+}
+
+.ota3 {
+    margin-bottom: 216px;
+}
+
+.hero6 {
+    background: hsla(32, 48%, 60%, 1);
+    height: 510px;
+}
+
+.hero7-text h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58.59px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 109px;
+    margin-bottom: 28px;
+}
+
+.ota7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero7-text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: hsla(0, 0%, 100%, 1);
+    margin-top: 28px;
+}
+.r681{
+    margin-top: -100px;
+    margin-left: 100px;
+}
